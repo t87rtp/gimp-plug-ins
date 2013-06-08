@@ -19,8 +19,8 @@ def python_autocrop_all_layers(img, drawable):
 
 register(
   "python-fu-autocrop-all-layers",
-  "summary",
-  "description",
+  "すべてのレイヤーを自動切り抜きします。",
+  "すべてのレイヤーを最小サイズで切り抜きます。",
   "t87rtp",
   "t87rtp",
   "date",

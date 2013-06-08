@@ -26,8 +26,8 @@ def python_arrange_all_layers(img, drawable, direction):
 
 register(
   "python-fu-arrange-all-layers",
-  "summary",
-  "description",
+  "すべてのレイヤーを並べます",
+  "すべてのレイヤーを縦方向または横方向に並べます。",
   "t87rtp",
   "t87rtp",
   "date",

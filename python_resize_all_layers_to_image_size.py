@@ -15,8 +15,8 @@ def python_resize_all_layers_to_image_size(img, drawable):
 
 register(
   "python-fu-resize-all-layers-to-image-size",
-  "summary",
-  "description",
+  "すべてのレイヤーをキャンパスに合わせます。",
+  "すべてのレイヤーのサイズをキャンパスサイズに合わせます。",
   "t87rtp",
   "t87rtp",
   "date",

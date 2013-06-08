@@ -10,8 +10,8 @@ def python_duplicate_layer(img, drawable):
 
 register(
   "python-fu-duplicate-layer",
-  "summary",
-  "description",
+  "レイヤーを複製します。",
+  "アクティブなレイヤーを複製します。",
   "t87rtp",
   "t87rtp",
   "date",

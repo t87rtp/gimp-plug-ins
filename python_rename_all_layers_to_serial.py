@@ -21,13 +21,13 @@ def python_rename_all_layers_to_serial(img, drawable, n, d):
 
 register(
   "python-fu-rename-all-layers-to-serial",
-  "summary",
-  "description",
+  "すべてのレイヤー名を連番にリネームします。",
+  "すべてのレイヤーを指定開始番号から始まる指定桁数の連番にリネームします。",
   "t87rtp",
   "t87rtp",
   "date",
   "<Image>/Python-fu/Layer/すべてのレイヤーを連番にリネーム",
-  "RGB*",
+  "*",
   [
    (PF_SPINNER, "n", "開始番号", 1, (0, 100, 1)),
    (PF_SPINNER, "d", "桁数", 1, (1, 100, 1))

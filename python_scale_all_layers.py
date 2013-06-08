@@ -29,8 +29,8 @@ def python_scale_all_layers(img, drawable, w, h, keep):
 
 register(
   "python-fu-scale-all-layers",
-  "summary",
-  "description",
+  "すべてのレイヤーをリサイズします。",
+  "すべてのレイヤーを指定された幅・高さにリサイズします。",
   "t87rtp",
   "t87rtp",
   "date",

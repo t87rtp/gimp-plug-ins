@@ -16,8 +16,8 @@ def python_round_corner_selection(img, drawable, width, height, radius, x, y, an
     
 register(
   "create-rounded-corner-selection",
-  "画像のすべてのレイヤーを指定された形式でそれぞれ保存します。",
-  "description",
+  "角丸選択範囲を作成します。",
+  "角丸選択範囲を作成します。",
   "t87rtp",
   "t87rtp",
   "2012.1.5",

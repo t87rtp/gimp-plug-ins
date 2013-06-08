@@ -31,8 +31,8 @@ def python_devide_layer(img, drawable, h, v):
 
 register(
   "python-fu-devide-layer",
-  "summary",
-  "description",
+  "アクティブなレイヤーを分割します。",
+  "アクティブなレイヤーを指定した水平方向・垂直方向に等分割します。",
   "t87rtp",
   "t87rtp",
   "date",

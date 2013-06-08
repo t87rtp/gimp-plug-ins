@@ -18,8 +18,8 @@ def python_reversing_the_order_of_layers(img, drawable):
 
 register(
   "python-fu-reversing-the-order-of-layers",
-  "summary",
-  "description",
+  "レイヤーの順序を反転します。",
+  "レイヤーの順序を反転します。",
   "t87rtp",
   "t87rtp",
   "date",

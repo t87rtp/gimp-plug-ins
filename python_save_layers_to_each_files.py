@@ -45,7 +45,7 @@ def python_save_layers_to_each_files(img, drawable, root_dir, format, fit, visib
 register(
   "save-layers-to-each-files",
   "画像のすべてのレイヤーを指定された形式でそれぞれ保存します。",
-  "description",
+  "画像のすべてのレイヤーを指定された形式でそれぞれ保存します。",
   "t87rtp",
   "t87rtp",
   "2012.1.5",

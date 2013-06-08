@@ -25,8 +25,8 @@ def python_move_all_layers(img, drawable, type, x, y):
     
 register(
   "python-fu-move-all-layers",
-  "画像のすべてのレイヤーを指定された形式でそれぞれ保存します。",
-  "description",
+  "すべてのレイヤーを移動します。。",
+  "相対位置を指定した場合、各レイヤーの現在位置から指定したピクセル分移動します。絶対位置を指定した場合、キャンパスを基準に指定した座標にすべてのレイヤーが移動します。",
   "t87rtp",
   "t87rtp",
   "2012.1.5",
