@@ -3,7 +3,7 @@
 
 from gimpfu import *
 
-def python_rename_all_layers_to_serial(img, drawable, n, d):
+def python_layers_rename_to_serial(img, drawable, n, d):
     img.undo_group_start()
     def_active_layer = pdb.gimp_image_get_active_layer(img)
     
@@ -20,7 +20,7 @@ def python_rename_all_layers_to_serial(img, drawable, n, d):
     img.undo_group_end()
 
 register(
-  "python-fu-rename-all-layers-to-serial",
+  "python-fu-layers-rename-to-serial",
   "すべてのレイヤー名を連番にリネームします。",
   "すべてのレイヤーを指定開始番号から始まる指定桁数の連番にリネームします。",
   "t87rtp",
@@ -33,6 +33,6 @@ register(
    (PF_SPINNER, "d", "桁数", 1, (1, 100, 1))
    ],
   [],
-  python_rename_all_layers_to_serial)
+  python_layers_rename_to_serial)
 
 main()

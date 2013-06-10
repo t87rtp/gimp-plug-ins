@@ -3,7 +3,7 @@
 
 from gimpfu import *
 
-def python_arrange_all_layers(img, drawable, direction):
+def python_layers_arrange_on_one_direction(img, drawable, direction):
     img.undo_group_start()
     def_active_layer = pdb.gimp_image_get_active_layer(img)
 
@@ -25,7 +25,7 @@ def python_arrange_all_layers(img, drawable, direction):
     img.undo_group_end()
 
 register(
-  "python-fu-arrange-all-layers",
+  "python-fu-layers-arrange-on-one-direction",
   "すべてのレイヤーを並べます",
   "すべてのレイヤーを縦方向または横方向に並べます。",
   "t87rtp",
@@ -37,6 +37,6 @@ register(
    (PF_RADIO, "direction" , "方向", 1, (("縦", 1), ("横", 0))),
    ],
   [],
-  python_arrange_all_layers)
+  python_layers_arrange_on_one_direction)
 
 main()
